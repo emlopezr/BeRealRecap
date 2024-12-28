@@ -16,13 +16,13 @@
 
 ## English
 
-**BeRealRecap** is a Python tool that helps you create a video recap of your BeReal memories. The process involves using **BeUnblurred** to communicate with BeReal and fetch images from your account, then processing them to create a personalized video.
+**BeRealRecap** is a Python tool that helps you create a video recap of your BeReal memories. The process involves using **[BeUnblurred](https://github.com/macedonga/beunblurred)** to communicate with BeReal and fetch images from your account, then processing them to create a personalized video.
 
 This tool automates the task of generating a video recap of your BeReal memories by processing the images and adding effects like rounded corners, borders, and a date overlay.
 
 ## Español
 
-**BeRealRecap** es una herramienta en Python que te ayuda a crear un video resumen de tus recuerdos de BeReal. El proceso implica usar **BeUnblurred** para comunicarse con BeReal y obtener las imágenes de tu cuenta, luego procesarlas para crear un video personalizado.
+**BeRealRecap** es una herramienta en Python que te ayuda a crear un video resumen de tus recuerdos de BeReal. El proceso implica usar **[BeUnblurred](https://github.com/macedonga/beunblurred)** para comunicarse con BeReal y obtener las imágenes de tu cuenta, luego procesarlas para crear un video personalizado.
 
 Esta herramienta automatiza la tarea de generar un video resumen de tus recuerdos de BeReal procesando las imágenes y agregando efectos como esquinas redondeadas, bordes y una superposición de fecha.
 
@@ -82,13 +82,13 @@ Esta herramienta automatiza la tarea de generar un video resumen de tus recuerdo
     ![Memories Feed](/tutorial/image.png)
     - Right-click -> Inspect Element or press Ctrl + Shift + C
     ![Inspect Element](/tutorial/image-1.png)
-    - Go to Console and paste the content of `scrap.js` and press Enter
+    - Go to Console and paste the content of [`scrap.js`](https://github.com/emlopezr/BeRealRecap/blob/main/scrap.js) and press Enter
     ![Scrap](/tutorial/image-2.png)
-    - Download the resulting .zip file and extract it in the project folder
+    - Download the resulting `.zip` file and extract it in the project folder
     ![Zip File](/tutorial/image-3.png)
 
 3. **Run the Python program:**
-    - Execute the script `recap.py` to generate your recap video (Use any of the following commands)
+    - Execute the script [`recap.py`](https://github.com/emlopezr/BeRealRecap/blob/main/recap.py) to generate your recap video (Use any of the following commands)
     ```bash
     python recap.py
     python3 recap.py
@@ -151,13 +151,13 @@ The tool will process the images, add the necessary effects, and create a video 
     ![Memories Feed](/tutorial/image.png)
     - Da clic derecho -> Inspeccionar Elemento o presiona Ctrl + Shift + C
     ![Inspeccionar Elemento](/tutorial/image-1.png)
-    - Ve a la Consola y pega el contenido de `scrap.js` y presiona Enter
+    - Ve a la Consola y pega el contenido de [`scrap.js`](https://github.com/emlopezr/BeRealRecap/blob/main/scrap.js) y presiona Enter
     ![Scrap](/tutorial/image-2.png)
     - Descarga el archivo .zip resultante y descomprímelo en la carpeta del proyecto
     ![Zip File](/tutorial/image-3.png)
 
 3. **Ejecuta el programa Python:**
-    - Ejecuta el script `recap.py` para generar el video resumen:
+    - Ejecuta el script [`recap.py`](https://github.com/emlopezr/BeRealRecap/blob/main/recap.py) para generar el video resumen:
     ```bash
     python recap.py
     python3 recap.py
