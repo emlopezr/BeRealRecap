@@ -5,14 +5,14 @@
 
 ## Table of Contents / Índice
 
-- [BeRealRecap](#berealrecap)
+- [BeRealRecap](#description)
     - [English](#english)
     - [Español](#español)
 - [Tutorial](#tutorial)
     - [How to Use (English)](#how-to-use-english)
     - [Cómo Usar (Español)](#cómo-usar-español)
 
-# Project description
+# Description
 
 ## English
 
