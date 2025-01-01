@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 IMAGES_DIR = 'images'
 VIDEO_OUTPUT_PATH = 'recap.avi'
-FPS = 1.5
+FPS = 3
 
 def format_date(date_str):
     # Suma un día a la fecha y la convierte a un formato más legible
@@ -89,7 +89,7 @@ def print_progress_bar(iterable, total, prefix='', length=40):
     sys.stdout.write('\n')  # Nueva línea al final
 
 start_date = "2023_12_31"
-end_date = "2024_12_31"
+end_date = "2025_12_31"
 
 total_elements = sum(1 for _ in generate_dates_with_images(start_date, end_date))
 
